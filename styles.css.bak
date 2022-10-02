@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Lobster';
+  src: local ('Lobster'),
+  url (./fonts/Lobster-Regular.ttf);
+  font-weight:400;
+  font-style: italic;
+}
+ 
+ 
+ body {
+       margin: 0;
+	   font-family:Lobster;
+	   font-size:18px;
+	   font-style:normal;
+       }
+
+div.text {
+	font-family:Lobster;
+	font-size: 30 px;
+	line-height: 35px;
+	font-style: normal;
+}
+
+h1{
+	font-family:Lobster;
+	font-weight:bold;
+    font-size:28px;
+	color:#20b2aa;
+	margin-top: 20px;
+	margin-bottom:15px;
+	margin-left: 20px;
+	line-height: 18px;
+	
+}
+
+h3{
+	font-family:Lobster;
+	color:#8a2be2;
+	font-weight:bold;
+    font-size:18px;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:20px;
+	line-height: 0.9em;
+	
+}
+                        
+		  .speech{
+					position:relative;
+					left:25px;
+					font-style:italic;
+					color:#0000cd;
+				 }
+            
+            
+            div{
+                display:block;
+                width:350px;
+                height:150px;
+                background-color:#40e0d0;
+                margin:10px;
+                border-radius:25px;
+                left:25px;
+                padding-left:20px;
+            }
+            
+            div:nth-of-type(even){
+                position:relative;
+                left:100px;
+				right:20px;
+            }
+			
+			
+               #kursiv{
+			color: #0000cd;
+			font-style:italic;
+			left:25px;
+			}
+			
+			
+            .string{
+                position:relative;
+                left:25px;
+				color:black;
+            }
+			
+			em {
+			color:#dc143c;
+			}
+			
+			.chat{ 
+			position:relative;
+			left:25px;
+			color:#dc143c;
+			font-style: italic;
+			
+			#one{
+			position:relative;
+			right:25px;
+			
+			
+			
+			

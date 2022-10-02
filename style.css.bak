@@ -1,0 +1,11 @@
+ body {
+       margin: 0;
+       }
+
+div.text{
+
+}
+p{
+	font-family: Arial;
+	color: red;
+}
